@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/zhenerenya/hw04.svg?branch=master)](https://travis-ci.com/zhenerenya/hw04)
+
+
 ## Homework
 
 Представьте, что вы стажер в компании "Formatter Inc.".
