@@ -5,9 +5,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 option(BUILD_EXAMPLES "Build solver" OFF)
 
-project(print)
+project(solver)
 
-add_library(print STATIC ${CMAKE_CURRENT_SOURCE_DIR}/solver_lib/solver.hpp)
+add_library(solver STATIC ${CMAKE_CURRENT_SOURCE_DIR}/solver_lib/solver.hpp)
 
 target_include_directories(solver PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
