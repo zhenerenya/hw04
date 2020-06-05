@@ -9,7 +9,7 @@ project(print)
 
 add_library(print STATIC ${CMAKE_CURRENT_SOURCE_DIR}/solver_lib/solver.hpp)
 
-target_include_directories(print PUBLIC
+target_include_directories(solver PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>
 )
