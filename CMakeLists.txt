@@ -26,7 +26,7 @@ if(BUILD_EXAMPLES)
   endforeach(EXAMPLE_SOURCE ${EXAMPLE_SOURCES})
 endif()
 
-install(TARGETS print
+install(TARGETS solver
     EXPORT print-config
     ARCHIVE DESTINATION lib
     LIBRARY DESTINATION lib
