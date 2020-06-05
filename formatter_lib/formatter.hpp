@@ -1,4 +1,4 @@
 #include <string>
 #include <iostream>
 
-std::string formater(const std::string& txt);
+std::string formatter(const std::string& txt);

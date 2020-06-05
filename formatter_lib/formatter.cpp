@@ -1,8 +1,10 @@
 #include "formatter.hpp"
 
-std::string formater(const std::string& txt){
+std::string formatter(const std::string& txt){
 	std::string res;
-	res+="print ";
-	res+=txt;
-	return res;
+	res += "-------------------------\n";
+    res += txt + "\n";
+    res += "-------------------------\n";
+    return res;
 }
+
