@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 project(formatter)
 
-add_libriary(formatter STATIC formatter.cpp)
+add_library(formatter STATIC formatter.cpp)
